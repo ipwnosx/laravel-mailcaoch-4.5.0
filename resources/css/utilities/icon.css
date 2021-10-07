@@ -1,0 +1,32 @@
+.icon-label {
+    display: flex;
+    align-items: center;
+    @apply justify-start;
+    @apply whitespace-nowrap;
+}
+
+.dropdown-list .icon-label {
+    @apply -mx-4;
+    @apply -my-1;
+    @apply px-4;
+    @apply py-1;
+}
+
+.icon-label [class*='fa-'] {
+    justify-self: center;
+    @apply opacity-75;
+    transition: opacity 0.3s ease;
+    @apply mr-2;
+}
+
+.icon-label-text {
+    @apply whitespace-nowrap;
+}
+
+.icon-button {
+    @apply opacity-75;
+}
+
+.icon-button:hover {
+    @apply text-blue-500;
+}

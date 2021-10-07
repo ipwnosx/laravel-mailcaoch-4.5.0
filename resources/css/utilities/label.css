@@ -1,0 +1,15 @@
+.label {
+    @apply text-gray-800;
+    @apply flex;
+    @apply items-center;
+    @apply pr-4;
+    @apply font-semibold;
+    @apply text-sm;
+}
+
+.label-required:after {
+    content: '*';
+    @apply inline-block;
+    @apply ml-1;
+    @apply text-blue-400;
+}
